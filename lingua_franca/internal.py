@@ -10,13 +10,13 @@ from lingua_franca.time import to_local
 
 
 _SUPPORTED_LANGUAGES = ("ca", "cs", "da", "de", "en", "es", "fr", "hu",
-                        "it", "nl", "pl", "pt", "ru", "sl", "sv", "fa")
+                        "it", "nl", "pl", "pt", "ru", "sl", "sv", "fa", "uk")
 
 _SUPPORTED_FULL_LOCALIZATIONS = ("ca-es", "cs-cz", "da-dk", "de-de",
                                  "en-au", "en-us", "es-es", "fr-fr",
                                  "hu-hu", "it-it", "nl-nl", "pl-pl",
                                  "fa-ir", "pt-pt", "ru-ru", "sl-si",
-                                 "sv-se", "tr-tr")
+                                 "sv-se", "tr-tr", "uk-ua")
 
 _DEFAULT_FULL_LANG_CODES = {'ca': 'ca-es',
                             'cs': 'cs-cz',
@@ -34,7 +34,8 @@ _DEFAULT_FULL_LANG_CODES = {'ca': 'ca-es',
                             'ru': 'ru-ru',
                             'sl': 'sl-si',
                             'sv': 'sv-se',
-                            'tr': 'tr-tr'}
+                            'tr': 'tr-tr',
+                            'uk': 'uk-ua'}
 
 __default_lang = None
 __active_lang_code = None
